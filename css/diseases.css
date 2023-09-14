@@ -1,0 +1,105 @@
+
+        .diseases {
+            display: grid;
+            
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            /* background: teal; */
+            padding:150px;
+        }
+
+        .diseases img {
+            width: 100%;
+            display: block;
+            /* -webkit-filter: grayscale(1);
+  filter: grayscale(1); */
+            transition: all 100ms ease-out;
+        }
+
+        .diseases img:hover {
+            transform: scale(1.04);
+            cursor: pointer;
+            /* -webkit-filter: grayscale(0); */
+            /* filter: grayscale(0); */
+        }
+
+        .card {
+            /* border: 2px solid white; */
+            /*margin: 0px 10px;*/
+            border-radius: 10px;
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            padding: 5px;
+            
+        }
+
+
+        /* Footer */
+
+        .footer {
+            /* background-color: #222; */
+            color: #fff;
+            font-size: 14px;
+            bottom: 0;
+            position: fixed;
+            left: 0;
+            right: 0;
+            text-align: center;
+            z-index: 999;
+        }
+
+        .footer p {
+            margin: 10px 0;
+            font-family: 'Raleway', 'Lucida Sans Regular', 'Lucida  Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        .footer .fa-heart {
+            color: red;
+        }
+
+        .footer .fa-codepen {
+            color: #fff
+        }
+
+        .footer a {
+            color: #3c97bf;
+            text-decoration: none;
+            margin-right: 5px;
+        }
+
+        .card-img-top {
+            height: 300px;
+            width: 300px;
+            /* margin: 4px; */
+            /* margin-left: 10px;
+            margin-right: 10px; */
+            border-radius: 10px;
+            align-self: center;
+            align-items: center;
+        }
+
+        .card-text {
+            margin: 10px;
+            text-align: center;
+        }
+
+        .title1 {
+            text-align: center;
+        }
+        .heading a{
+            text-decoration: none;
+            color: rgb(9, 56, 104);
+            padding: 5px;
+            position: relative;
+            top: 95px;
+            left: 30px;
+            font-size: 25px;
+            border: 3px solid rgb(9, 56, 104);;
+        }
+        .heading a:hover{
+            color: white;
+            background-color: rgb(6, 27, 48);;
+        }
+  
